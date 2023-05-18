@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frete</title>
+    <link rel="stylesheet" href="./style/estilo.css">
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <br>
+        <div class="form">
+            <h1>Cálculo de Frete</h1>
+            <div class="campo1">
+                <label for="data">Dia Da Postagem</label>
+                <input type="date">
+                <div id="MinhaModal" class="modal">
+                    <div class="modal-content">
+                        <span class="Fechar">&times;</span>
+                        <h3>Data De Postagem</h3>
+                        <p>
+                             Os prazos de entrega são calculados a partir do primeiro dia útil seguinte ao da postagem e variam de acordo com as localidades de origem e de destino do objeto.<br><br>
+                             Os prazos de entrega podem ser alterados sem prévio aviso devido a ocorrência de situação de natureza fortuita e de força maior, como terremoto, ciclone, tempestade, inundação, guerra, queda de aeronave, embargo, atos ou omissões de autoridades públicas, etc.<br><br>
+                             Informando a data de postagem é possível verificar o prazo de entrega de um objeto numa data anterior à atual.
+                        </p>
+                    </div>
+                </div>
+                   <a href="#"onclick="showModal()"> Saiba Mais...</a>
+            </div>
+            <div class="campo2">
+                <label for="cepOrigem">CEP de Origem</label>
+                    <input type="number" placeholder="apenas os números" id="cepOrigem">
+                    <label for="cepDestino">CEP de Destino</label>
+                    <input type="number"placeholder="apenas os números" id="cepDestino"><br><br>
+                    <a href="https://buscacepinter.correios.com.br/app/endereco/index.php" target="_blank">Não sei o CEP</a>
+            </div>
+            <div class="campo3">
+                <label for="boxSelect">Dimensões</label>
+                    <select name="boxSelect" id="boxSelect" onchange=" monstrarDimensao()">
+                        <option value="0">Selecione o Formato</option>
+                        <option value="1">Caixa/Pacote</option>
+                        <option value="2">Rolo/Cilindro ou Esfera</option>
+                        <option value="3" disabled>Envelope</option>
+                    </select>
+            </div>
+            <div class="cubo">
+                    <div class="cuboCampos">
+                        <label for="altura">Altura:</label>
+                        <input type="number" id="altura" name="altura">
+
+                        <label for="largura">Largura(cm):</label>
+                        <input type="number" id="largura" name="largura">
+
+                    </div>
+                    <div class="cuboCampos">
+                        <label for="comprimento">Comprimento(cm):</label><br>
+                        <input type="number" id="comprimento" name="comprimento">
+                        
+                        <label for="peso">Peso(kg):</label>
+                        <input type="number" id="peso" name="peso" placeholder="Min: 0,1 kg Max: 150 kg">
+                    </div>   
+                
+            </div>
+            <div class="cilindro">
+                <div class="cilindroCampos">
+                    <label for="comprimentoCubo">Comprimento(cm)</label>
+                    <input type="number"id="comprimentoCubo">
+
+                    <label for="diamentro">Diâmentro(cm)</label>
+                    <input type="number"id="diamentro">
+
+                    <label for="peso">Peso Estimado(Kg)</label>
+                    <input type="number"id="peso" placeholder=" Min: 0,1 kg Max: 150 kg">
+                </div>
+
+            </div>
+            <button id="btnCalcular" type="submit"onclick="calculoCubagem()">Calcular Frete</button>
+        </div>
+        <div class="tabelasFormatadas">
+            <table id="tabelaCalculo" class="tabelaCalculo">
+                <thead>
+                  <caption>Informações</caption>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Prazo para Entrega:</td>
+                        <td id="diaEntrega"></td>
+                      </tr>
+                      <tr>
+                        <td>Tipo de Entrega:</td>
+                        <td id="TipoEntrega"></td>
+                      </tr>
+                      <tr>
+                        <td>Valor do Frete:</td>
+                        <td id="frete"></td>
+                      </tr>
+                </tbody>
+            </table>
+            <table id="tabela" class="tabela">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Origem</th>
+                    <th>Destino</th>
+                  </tr>
+                </thead>
+                <tbody>
+                    <tr id="tr1">
+                        <td>CEP</td>
+                        <td id="cep_1"></td>
+                        <td id="cep_2"></td>
+                      </tr>
+                      <tr>
+                        <td>Endereço</td>
+                        <td id="ende_1"></td></td>
+                        <td id="ende_2"></td></td>
+                      </tr>
+                      <tr>
+                        <td>Bairro</td>
+                        <td id="bairro_1"></td></td>
+                        <td id="bairro_2"></td></td>
+                      </tr>
+                      <tr>
+                        <td>Cidade/ UF</td>
+                        <td id="cid_1"></td></td>
+                        <td id="cid_2"></td></td>
+                      </tr>
+                </tbody>
+            </table>
+            <br>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+    <script src="./js/modal.js"></script>
+</body>
+</html>
