@@ -11,6 +11,16 @@ Associação Internacional de Transporte Aéreo (IATA).
 
 ![tela2](https://github.com/Nayara12Silva/Frete/assets/104741196/96a8143a-41eb-4a1e-901b-7bac36c7baae)
 
+### TECNOLOGIAS USADAS:
+
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
+)]()
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
+)]()
+[![Javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
+)]()
+
+
  ### Como Usar 📦📝:
 
 1 Prencha todos os Campos Solicitatdos
@@ -32,3 +42,11 @@ Associação Internacional de Transporte Aéreo (IATA).
 
 #### 💻 O projeto ainda estar em desenvolvimento 👍
 
+### REDES SOCIAS:
+
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nayara-de-sousa-silva-425b6b238)
+[![Instagran](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagran.com/nayarade77?igshid=ZDdkNTZiNTM=)
+[![whatsapp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white
+)](https://wa.me/5519983607624?text=Ol%C3%A1+%F0%9F%91%8B%2C++tudo+bem%3F)
+[![telegran](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white
+)](https://t.me/@Nayara_ackerman)
