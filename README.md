@@ -13,16 +13,16 @@ Associação Internacional de Transporte Aéreo (IATA).
 
  ### Como Usar 📦📝:
 
-1 Prencha dos os Campos Solicitatdos
+1 Prencha todos os Campos Solicitatdos
 
 - Data De Postagem 
 - Cep De Origem.
 - Cep de Destino.
 
 
-2 Selecione o Formato do seu Pacote..
+2 Selecione o Formato do seu Objeto.
 
-- Cubo/
+- Caixa/ Pacote
 - Rolo/ Cilindro ou Esfera.
 - Envelope - esta opção encontra-se indisponível .
 
