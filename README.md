@@ -22,6 +22,8 @@ Associação Internacional de Transporte Aéreo (IATA).
 
 
  ### Como Usar 📦📝:
+ 
+ clique [Aqui](https://nayara12silva.github.io/Frete/) para visualizar a página
 
 1 Prencha todos os Campos Solicitatdos
 
