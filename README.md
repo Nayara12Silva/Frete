@@ -11,7 +11,7 @@ Associação Internacional de Transporte Aéreo (IATA).
 
 ![tela2](https://github.com/Nayara12Silva/Frete/assets/104741196/96a8143a-41eb-4a1e-901b-7bac36c7baae)
 
-📦📝 ### Como Usar:
+ ### Como Usar 📦📝:
 
 1 Prencha dos os Campos Solicitatdos
 
@@ -29,3 +29,6 @@ Associação Internacional de Transporte Aéreo (IATA).
 3 Preencha os campos com as dimensões do seu objeto.
 
 4 Clique no botão Calcular Frete.
+
+#### 💻 O projeto ainda estar em desenvolvimento 👍
+
