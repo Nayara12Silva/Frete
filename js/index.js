@@ -108,6 +108,7 @@ function ExibirDadosOrigem(dados){
       end1.innerHTML = dados.logradouro
       bairro1.innerHTML = dados.bairro
       cid1.innerHTML = `${dados.localidade} - ${dados.uf}`
+       tabela.style.display = 'block';
 }
 function ExibirDadosDestino(dados){
        Cep2.innerHTML = dados.cep
